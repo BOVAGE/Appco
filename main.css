@@ -1,0 +1,170 @@
+:root {
+	--purple: rgb(139 17 188);
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+.coloured-bg {
+	background-color: #f4feff;
+}
+
+a.nav-link {
+	color: var(--purple)!important;
+	font-size: 1.1rem;
+}
+
+a.nav-link:hover {
+	border-bottom: 2px solid var(--purple);
+}
+
+li.active a.nav-link {
+	border-bottom: 2px solid var(--purple);
+}
+
+i.fa-play {
+	color: white;
+	background-color: var(--purple);
+}
+
+h1 {
+	color: #0f0340;
+	font-size: 3.2rem;
+	font-weight: 500;
+}
+
+h3 {
+	color: #0f0340;
+	font-size: 2.8rem;
+}
+
+h4 {
+	color: #420c76;
+}
+
+i.fa-tools {
+	background: linear-gradient(90deg, #e78ae9 0%, #926ef8 100%);
+	color: white;
+}
+
+#services div.card {
+	background: url("img/shape/dot-bg.png") no-repeat 65% 45px;
+	background-color: white;
+	padding-top: 68px;
+	padding-bottom: 60px;
+	border: none;
+	transition: background-position 0.3s ease-in-out,
+				border 0.3s ease-in;
+}
+
+#services div.card:hover {
+	background-position: 72% 45px;
+	border: 1px solid blue;
+}
+
+div.card > i {
+	color: white;
+	background-color: #e88cea;
+	height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 20px 18px 0;
+    margin: auto;
+	transition: background-color 0.3s ease-in-out;
+}
+
+div.card > i:hover {
+	background-color: #835ef8;
+}
+
+div.card > i.fa-hand-peace {
+	background-color: #835ef8;
+}
+
+div.card > i.fa-hand-peace:hover {
+	background-color: #835ef8;
+}
+
+
+#app-gallery > .container-fluid {
+	padding-left: 16%;
+}
+
+
+#pricing {
+	background-image: linear-gradient(to right, rgba(225,0,255,0.8) 0% ,rgb(69,0,173,0.9) 100%),
+						url("img/gallery/best_pricingbg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 400px;
+}
+
+.big {
+	font-size: 3rem;
+}
+
+#contact {
+	background: url('img/shape/say-shape-right.png') no-repeat right;
+}
+
+#contact button {
+	position: absolute;
+	right: 10%;
+	bottom: 10%;
+}
+
+#cta {
+	background-image: linear-gradient(to right, rgb(69,0,173,0.8) 0% , rgba(225,0,255,0.8) 100%);
+}
+
+input[type=email] {
+	color: #6c757d;
+}
+
+@media (max-width: 992px) { 
+	.navbar-collapse {
+		background-color: white;
+	}
+	
+	#app-gallery > .container-fluid {
+		padding-left: 10px;
+	}
+	
+	#contact {
+		background: none; 
+	}
+	
+	#contact button {
+		position: static;
+	}
+	
+	h1 {
+		font-size: 2.0rem;
+	}
+
+	h3 {
+		font-size: 1.8rem;
+	}
+	
+	h4 {
+		font-size: 1rem;
+	}
+	
+	a.nav-link:hover {
+		border-bottom: none;
+	}
+
+	li.active a.nav-link {
+		border-bottom: none;
+	}
+}
+
+@media (min-width: 1300px) {
+	#features {
+		background: url('img/shape/best-features.png') no-repeat left/15%;
+	}
+	
+	#contact {
+		background: url('img/shape/say-shape-left.png') no-repeat -5% 130%/150px 150px;
+	}
+}
