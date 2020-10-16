@@ -119,6 +119,18 @@ div.card > i.fa-hand-peace:hover {
 
 input[type=email] {
 	color: #6c757d;
+	border-radius: 0;
+	border: 1px solid white;
+	background-color: #f9f9fe;
+}
+
+input[type=email]:focus {
+	box-shadow: none;
+}
+
+.send_btn {
+	background-color: var(--purple);
+	border-radius: 0;
 }
 
 @media (max-width: 992px) { 
