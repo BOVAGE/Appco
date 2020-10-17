@@ -50,7 +50,6 @@ i.fa-tools {
 
 #services div.card {
 	background: url("img/shape/dot-bg.png") no-repeat 65% 45px;
-	background-color: white;
 	padding-top: 68px;
 	padding-bottom: 60px;
 	border: none;
@@ -101,6 +100,7 @@ div.card > i.fa-hand-peace:hover {
 
 .big {
 	font-size: 3rem;
+	color: #420c76;
 }
 
 #contact {
@@ -121,7 +121,6 @@ input[type=email] {
 	color: #6c757d;
 	border-radius: 0;
 	border: 1px solid white;
-	background-color: #f9f9fe;
 }
 
 input[type=email]:focus {
